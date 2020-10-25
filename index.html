@@ -1,11 +1,348 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
-  </head>
-  <body>
-    <h1>Hello there!</h1>
-    <a href="/me.html">My other page</a>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Go Accomplish</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CDN links -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header-wrapper box-bg">
+            <header class="py-2 overflow-hidden">
+                <div class="container-width header">
+                    <a href="#" class="float-left">
+                        <img src="images/logo.jpg" alt="logo" class="logo" />
+                    </a>
+                    <div class="navbar-links d-xs-none float-left pl-4">
+                        <a href="/Go-accomplish/index.html" class="navbar-link">
+                            Home
+                        </a>
+                        <a href="/Go-accomplish/course.html" class="navbar-link">
+                            Courses
+                        </a>
+                        <a href="/Go-accomplish/corporate-solution.html" class="navbar-link">
+                            Corporate Solutions
+                        </a>
+                    </div>
+                    <div class="float-right d-xs-none">
+                        <a href="" class="navbar-link">
+                            Blog
+                        </a>
+                        <a href="" class="navbar-link">
+                            Login
+                        </a>
+                        <a href="" class="navbar-link">
+                            <img src="images/cart.png" alt="cart" />
+                        </a>
+                    </div>
+                    <div class="d-lg-none">
+                        <button class="navbar-toggler collapsed float-right" type="button" data-toggle="collapse"
+                            data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar top-bar"></span>
+                            <span class="icon-bar middle-bar"></span>
+                            <span class="icon-bar bottom-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse p-3 clearfix" id="navbarsExampleDefault">
+                            <ul class="navbar-nav text-left">
+                                <li class="pb-2">
+                                    <a href="/Go-accomplish/" class="navbar-link">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="/Go-accomplish/course.html" class="navbar-link">
+                                        Courses
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="/Go-accomplish/corporate-solution.html" class="navbar-link">
+                                        Corporate Solutions
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="navbar-link">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="navbar-link">
+                                        Login
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="navbar-link">
+                                        <img src="images/cart.png" alt="cart" />
+                                    </a>
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <section class="clearfix">
+            <div class="text-center view-course">
+                <div class="tablet d-flex">
+                    <div class="course-wrapper">
+                        <h1 class="title">Learn with purpose</h1>
+                        <a href="/Go-accomplish/course.html">View Courses</a>
+                       </div>
+                </div>
+            </div>
+            <div class="text-center padding-y container-width">
+                <h1 class="main-heading mb-3">Our Courses</h1>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="/Go-accomplish/course-details.html"><img src="images/skill-dev.PNG" alt="Books" /></a>
+                        <h6 class="mt-1">Skill Development</h6>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="/Go-accomplish/course-details.html"><img src="images/compliance.PNG" alt="Books" /></a>
+                        <h6 class="mt-1">Compliance Training</h6>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="/Go-accomplish/course-details.html"><img src="images/career.PNG" alt="Books" /></a>
+                        <h6 class="mt-1">Career Enhancement</h6>
+                    </div>
+                </div>
+                <div class="text-center padding-y container-width">
+                    <h2 class="main-heading mb-3">Go Accomplish powers training for gobal brands</h2>
+
+                    <div class="owl-slider">
+                        <div id="carousel" class="owl-carousel">
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="owl-lazy" data-src="images/career.PNG" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center padding-y container-width">
+                <h1 class="main-heading elearn-title">
+                    Why eLearning?
+                </h1>
+                <p class="mb-0">
+                    An investment is well made only if it helps to achieve business goals.</p>
+                <p>
+                    Here's why eLearning is a good idea.
+                </p>
+                <div class="row padding-y">
+                    <div class="col-xs-12 col-sm-6 col-md-3 dotted-border">
+                        <img src="images/circle-1.png" alt="Circle" />
+                        <h2 class="sec-heading mt-3">Increased Retention</h2>
+                        <p>
+                            The combination of
+                            multimedia and instructional
+                            design can produce a very
+                            rich learning experience with
+                            increased retention rates
+                            between 25% to 60%.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 dotted-border">
+                        <img src="images/circle-2.png" alt="Circle" />
+                        <h2 class="sec-heading mt-3">Frequent Assessments
+                        </h2>
+                        <p>
+                            Frequent assessments can
+                            reduce distractions. Studies by
+                            Harvard suggest that regular
+                            tests halved student
+                            distraction, tripled note-taking
+                            & improved overall retention.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 dotted-border">
+                        <img src="images/circle-3.png" alt="Circle" />
+                        <h2 class="sec-heading mt-3">Measured Results</h2>
+                        <p>
+                            Reports including course
+                            completion rates,
+                            engagement, assessment
+                            grades, & completion time can
+                            be delivered from the Learning
+                            Management System (LMS).
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <img src="images/circle-4.png" alt="Circle" />
+                        <h2 class="sec-heading mt-3">Flexible Learning Styles</h2>
+                        <p>
+                            There is no one-size-fits-all
+                            training brush & eLearning
+                            allows learners to study at
+                            their own pace and repeat
+                            the training modules as per
+                            their requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center padding-y container-width">
+                <h1 class="main-heading">Blog</h1>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#"><img src="images/story-1.PNG" alt="Story" /></a>
+                        <h6 class="mt-1">Story Tilte 1</h6>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#"><img src="images/story-2.PNG" alt="Story" /></a>
+                        <h6 class="mt-1">Story Tilte 2</h6>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#"><img src="images/story-3.PNG" alt="Story" /></a>
+                        <h6 class="mt-1">Story Tilte 3</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center did-u-know-section">
+                <div class="container-width">
+                    <h4 class="main-heading">Did you know?</h4>
+                    <p>There is no better time to save our planet.</p>
+                    <p class="mb-0 calc-text">eLearning equates to an average of 90% less energy and 85% fewer
+                        CO2 emissions per student than traditional in person courses</p>
+                    <p class="mb-0">20/30 on rotation</p>
+                </div>
+            </div>
+        </section>
+        <footer class="box-bg p-5">
+            <div class="p-3 footer-wrapper container-width">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-6">
+                        <h5 class="footer-link">Company</h5>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <a href="#">About us</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Careers</a>
+                            </li>
+                            <li class="mt-3">
+                                <a href="#" class="footer-link">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Payments</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <h5 class="footer-link">
+                            Join our newsletter
+                        </h5>
+                        <p class="mb-0">Enter your email here*</p>
+                        <input class="form-control input-box mx-auto mb-3" />
+                        <h5 class="footer-link">
+                            Resources
+                        </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="#">Videos</a>
+                            </li>
+                            <li>
+                                <a href="#">Products</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="terms-section">Disclaimer</a>
+                    <a href="#" class="terms-section">Privacy Policy</a>
+                    <a href="#" class="terms-section">Terms of Services</a>
+                    <a href="#" class="terms-section">Sitemap</a>
+                    <a href="#" class="terms-section">Reserved Rights</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        jQuery("#carousel").owlCarousel({
+            autoplay: false,
+            lazyLoad: true,
+            loop: false,
+            margin: 20,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            responsiveClass: true,
+            autoHeight: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 800,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 4
+                },
+
+                600: {
+                    items: 6
+                },
+
+                1024: {
+                    items: 8
+                },
+
+                1366: {
+                    items: 8
+                }
+            }
+        });
+    </script>
+</body>
+
 </html>
